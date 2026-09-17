@@ -87,3 +87,8 @@ python yield.py --plot all --solar no
 python yield.py --plot isobar --solar 130
 ```
 
+## License
+
+The nucleosynthetic yield data in this repository are made available
+under the Creative Commons Attribution 4.0 International (CC BY 4.0)
+license.

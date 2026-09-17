@@ -1,3 +1,47 @@
+# Nucleosynthetic yields (under construction)
+
+This repository provides nucleosynthetic yields obtained in
+binary neutron star merger, neutron star-black hole merger, and collapsar simulations presented in Fujibayashi et al., Wanajo et al., and Shibata et al.
+
+## Data files
+
+For the compact merger yields, the file names follow the convention
+
+Fujibayashi+YYYY-EOS-M1-M2-yield.dat
+
+where
+- YYYY: publication year
+- EOS: equation of state
+- M1, M2: neutron-star masses in units of 0.01 solar masses
+
+For example,
+
+Fujibayashi+2023-SFHo-120-150-yield.dat
+
+corresponds to a 1.20 + 1.50 Msun binary with the SFHo EOS.
+
+For the collapsar yields, the file names follow the convention
+
+Shibata+YYYY-Bfield-Resolution-yield.dat
+
+where
+- YYYY: publication year
+- Bfield: magnetic field strength and dynamo parameters
+- Resolution: a high resolution run if `H`.
+
+## Format
+
+
+## References
+- [Fujibayashi et al. 2020](https://ui.adsabs.harvard.edu/abs/2020ApJ...901..122F/abstract)
+- [Fujibayashi et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...942...39F/abstract)
+- [Wanajo et al. 2024](https://ui.adsabs.harvard.edu/abs/2024PhRvL.133x1201W/abstract)
+- [Shibata et al. 2025](https://ui.adsabs.harvard.edu/abs/2025PhRvD.111l3017S/abstract)
+
+## Citation
+
+If you use these data, please cite the corresponding publication.
+
 # Public Data Analysis Tool: Quick Guide
 
 `yield.py` reads the public data tables and produce tables or plots. It requires Python 3, NumPy, and Matplotlib. The examples below assume that `python` runs Python 3.
@@ -42,3 +86,4 @@ python yield.py --plot all --solar no
 # Normalize the solar distribution at A=130
 python yield.py --plot isobar --solar 130
 ```
+

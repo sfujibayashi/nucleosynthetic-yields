@@ -1,7 +1,7 @@
 # Nucleosynthetic yields (under construction)
 
 This repository provides nucleosynthetic yields obtained in
-binary neutron star merger, neutron star-black hole merger, and collapsar simulations presented in Fujibayashi et al., Wanajo et al., and Shibata et al.
+binary neutron star merger, neutron star-black hole merger, and collapsar simulations presented in Fujibayashi et al., Wanajo et al., Shibata et al., and Kiuchi et al.
 
 ## Data files
 
@@ -37,6 +37,7 @@ where
 - [Fujibayashi et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...942...39F/abstract)
 - [Wanajo et al. 2024](https://ui.adsabs.harvard.edu/abs/2024PhRvL.133x1201W/abstract)
 - [Shibata et al. 2025](https://ui.adsabs.harvard.edu/abs/2025PhRvD.111l3017S/abstract)
+- [Kiuchi et al. 2026](https://ui.adsabs.harvard.edu/abs/2026arXiv260827555K/abstract)
 
 ## Citation
 
